@@ -1,0 +1,5 @@
+PROCESS-NAME,transmission-qt.exe
+PROCESS-NAME,transmission.exe
+PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,aria2c.exe
+DOMAIN-SUFFIX,adysec.com

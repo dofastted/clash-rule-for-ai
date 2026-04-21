@@ -1,0 +1,33 @@
+# 微信进程直连
+PROCESS-NAME,weixin.exe,DIRECT
+PROCESS-NAME,Weixin.exe,DIRECT
+PROCESS-NAME,WeChat.exe,DIRECT
+PROCESS-NAME,WeChatApp.exe,DIRECT
+PROCESS-NAME,WeChatAppEx.exe,DIRECT
+  
+# 微信域名关键词直连
+DOMAIN-KEYWORD,weixin,DIRECT
+DOMAIN-KEYWORD,wechat,DIRECT
+DOMAIN-KEYWORD,factory,DIRECT
+  
+# 微信主要域名后缀直连
+DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,factory.ai,DIRECT
+DOMAIN-SUFFIX,wechat.com,DIRECT
+DOMAIN-SUFFIX,weixin.com,DIRECT
+DOMAIN-SUFFIX,wx.qq.com,DIRECT
+DOMAIN-SUFFIX,wxs.qq.com,DIRECT
+DOMAIN-SUFFIX,servicewechat.com,DIRECT
+DOMAIN-SUFFIX,weixinbridge.com,DIRECT
+  
+# 微信海外版常用域名直连
+DOMAIN-SUFFIX,sgshort.wechat.com,DIRECT
+DOMAIN-SUFFIX,sglong.wechat.com,DIRECT
+DOMAIN-SUFFIX,hkshort.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,hklong.weixin.qq.com,DIRECT
+  
+# 微信视频相关域名
+DOMAIN-SUFFIX,snsvideo.c2c.wechat.com,DIRECT
+DOMAIN-SUFFIX,socwxsns.video.qq.com,DIRECT
+DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
+
