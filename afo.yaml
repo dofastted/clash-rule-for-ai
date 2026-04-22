@@ -1,14 +1,7 @@
 proxies:
-  - {name: snippets-1 t.me/bestip_one, server: snipaste4.speedip.eu.org, port: 443, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s98adgd8hsfhz.j3txv.njk14zk3.nopn.bp1n78dmf2mk.wxe.9ecmgl0.8ve3.ykdbh9s.k9n6x5hv.3i85pbp006sce1ticwf8bkbn81n80hz7d.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s98adgd8hsfhz.j3txv.njk14zk3.nopn.bp1n78dmf2mk.wxe.9ecmgl0.8ve3.ykdbh9s.k9n6x5hv.3i85pbp006sce1ticwf8bkbn81n80hz7d.neib.cn}}}
-  - {name: snippets-2 t.me/bestip_one, server: snipaste2.speedip.eu.org, port: 2096, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s98ota1ve4al4.vqq.crczdsz0h.cpe.gg2y.qj9trda.mz34agvqwj94.7vaycc.1we.8gczsch7.ed43ahhaxfq85dfv3a23htnwuq1tv8xb9f9t.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s98ota1ve4al4.vqq.crczdsz0h.cpe.gg2y.qj9trda.mz34agvqwj94.7vaycc.1we.8gczsch7.ed43ahhaxfq85dfv3a23htnwuq1tv8xb9f9t.neib.cn}}}
-  - {name: snippets-3 t.me/bestip_one, server: snipaste5.speedip.eu.org, port: 2096, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s98691lfa6f3l.kib9m7zku5.nxfyqc.49p0yrqgh1ou.nobfko.ptot7ncf.hpn.34z.o51x.t71.hvfd2coh6v8ln8z6wekqnfe6nc675no2juph.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s98691lfa6f3l.kib9m7zku5.nxfyqc.49p0yrqgh1ou.nobfko.ptot7ncf.hpn.34z.o51x.t71.hvfd2coh6v8ln8z6wekqnfe6nc675no2juph.neib.cn}}}
-  - {name: snippets-4 t.me/bestip_one, server: snipaste1.speedip.eu.org, port: 2096, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s98qxa2o206lp.0lh31iluolbj.oyholq.jvdtxn9yf.d63fd2n1c.s1cilm27nle.64h44.7vd.eglner.xeua3r6f55dh.40oz1igifz5lavh524.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s98qxa2o206lp.0lh31iluolbj.oyholq.jvdtxn9yf.d63fd2n1c.s1cilm27nle.64h44.7vd.eglner.xeua3r6f55dh.40oz1igifz5lavh524.neib.cn}}}
-  - {name: snippets-5 t.me/bestip_one, server: 104.26.12.31, port: 2087, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s98x6mw3h5hpf.o8rjika.lmw4nnr.bsg.zmf3m.5aglt7f6o15.im86nev0xx.ox47n.f72xq.f2zgtlc8.onzekjlforb1jp40ydctqddrgb05sp.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s98x6mw3h5hpf.o8rjika.lmw4nnr.bsg.zmf3m.5aglt7f6o15.im86nev0xx.ox47n.f72xq.f2zgtlc8.onzekjlforb1jp40ydctqddrgb05sp.neib.cn}}}
-  - {name: snippets-6 t.me/bestip_one, server: 104.26.13.31, port: 2083, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s98i5udeib9a3.axfn9y6n3rt.y7y9bz.y87h1b6its.n5b.tok49q4nigo.pb4vo7.imphle27.h76o7eq.obwa.yzrtge4igsp5om1572nombpff.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s98i5udeib9a3.axfn9y6n3rt.y7y9bz.y87h1b6its.n5b.tok49q4nigo.pb4vo7.imphle27.h76o7eq.obwa.yzrtge4igsp5om1572nombpff.neib.cn}}}
-  - {name: snippets-7 t.me/bestip_one, server: snipaste3.speedip.eu.org, port: 2087, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s98zmk62fa6yk.cu1179mo06x.iw0cowt3rxe6.yzjouix.4vxed.z2uk.inc5buism9p2.f9g.uetr6.ykg.td7ly0ppyggp6txjshpimld3l7j2h.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s98zmk62fa6yk.cu1179mo06x.iw0cowt3rxe6.yzjouix.4vxed.z2uk.inc5buism9p2.f9g.uetr6.ykg.td7ly0ppyggp6txjshpimld3l7j2h.neib.cn}}}
-  - {name: snippets-8 t.me/bestip_one, server: snipaste2.speedip.eu.org, port: 2096, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s982zlnjn5yq3.qbvwo84m6sue.r8b6saa.n48of7.oouh9nht4.v1shmn.guwer3.d7b.2chspcv.45crebih0.973fpwemoshia3ubpx5xr35wc0.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s982zlnjn5yq3.qbvwo84m6sue.r8b6saa.n48of7.oouh9nht4.v1shmn.guwer3.d7b.2chspcv.45crebih0.973fpwemoshia3ubpx5xr35wc0.neib.cn}}}
-  - {name: snippets-9 t.me/bestip_one, server: snipaste5.speedip.eu.org, port: 2053, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s98y13i6g7e4y.r5cgfdr9br9s.afgj9orzmmpf.4tsd.j82.x62ifjjeknk.q1hp4h9zo.wuaayt.wpafgshgrt54.bhcl9v.nt9nu7iagpmzb5tk.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s98y13i6g7e4y.r5cgfdr9br9s.afgj9orzmmpf.4tsd.j82.x62ifjjeknk.q1hp4h9zo.wuaayt.wpafgshgrt54.bhcl9v.nt9nu7iagpmzb5tk.neib.cn}}}
-  - {name: snippets-10 t.me/bestip_one, server: snipaste3.speedip.eu.org, port: 2053, type: vless, uuid: 019db4f8-aa62-f842-c165-98d09d3a569c, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x38s98xnozcd7850.vl9zf.ksjt.5kb0xk5dn.wsumqpiiuj.br8o9qi.tmaz3ft19b.5x9uq9f.czrwn.fwffge37gg.1vafytrwyy9zyt36knoppyns.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x38s98xnozcd7850.vl9zf.ksjt.5kb0xk5dn.wsumqpiiuj.br8o9qi.tmaz3ft19b.5x9uq9f.czrwn.fwffge37gg.1vafytrwyy9zyt36knoppyns.neib.cn}}}
+  - {name: "🇺🇸 dmit[us]-600G", server: 154.17.239.145, port: 443, type: vless, uuid: f5692768-5288-43c6-8cef-341dde6344a5, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: cFOObXBY1O7-LqMqwQ4qDbRdH104xyMb6XwrNHuCkho}, servername: learn.microsoft.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 US4-CN2家宽专线-600G, server: 38.146.29.115, port: 26653, type: vless, uuid: 7f9668a1-f65c-4274-a392-98e36da03831, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: KwIP45y2up5f_R2roCNd_dsvTuD97GtjCPzYg1hcuXU}, servername: www.paypal.com, client-fingerprint: chrome, network: tcp}
+  - {name: "🇺🇸 DMIT-PRO-[US]-1-696.96GB📊", server: dmit3.fkcodex.com, port: 55812, type: vless, uuid: 60967de1-80d6-4cad-a589-089fb51bfbad, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: GpBr89Iu0raHPKAeSkOSf_8nYdS_WvCAwbnfecBSLiU, short-id: "df" }, servername: www.amazon.com, client-fingerprint: chrome, network: tcp}
 proxy-groups:
   - name: 🔮 全局策略
     type: select
@@ -27,32 +20,18 @@ proxy-groups:
     type: select
     proxies:
       - 🛰️ 自动选择
-      - snippets-1 t.me/bestip_one
-      - snippets-2 t.me/bestip_one
-      - snippets-3 t.me/bestip_one
-      - snippets-4 t.me/bestip_one
-      - snippets-5 t.me/bestip_one
-      - snippets-6 t.me/bestip_one
-      - snippets-7 t.me/bestip_one
-      - snippets-8 t.me/bestip_one
-      - snippets-9 t.me/bestip_one
-      - snippets-10 t.me/bestip_one
+      - 🇺🇸 dmit[us]-600G
+      - 🇺🇸 US4-CN2家宽专线-600G
+      - 🇺🇸 DMIT-PRO-[US]-1-696.96GB📊
   - name: 🛰️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - snippets-1 t.me/bestip_one
-      - snippets-2 t.me/bestip_one
-      - snippets-3 t.me/bestip_one
-      - snippets-4 t.me/bestip_one
-      - snippets-5 t.me/bestip_one
-      - snippets-6 t.me/bestip_one
-      - snippets-7 t.me/bestip_one
-      - snippets-8 t.me/bestip_one
-      - snippets-9 t.me/bestip_one
-      - snippets-10 t.me/bestip_one
+      - 🇺🇸 dmit[us]-600G
+      - 🇺🇸 US4-CN2家宽专线-600G
+      - 🇺🇸 DMIT-PRO-[US]-1-696.96GB📊
   - name: 🧩 自定义扩展
     type: select
     proxies:
@@ -282,11 +261,16 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - DIRECT
+      - 🇺🇸 dmit[us]-600G
+      - 🇺🇸 US4-CN2家宽专线-600G
+      - 🇺🇸 DMIT-PRO-[US]-1-696.96GB📊
   - name: US - 节点选择
     type: select
     proxies:
       - US - 自动选择
+      - 🇺🇸 dmit[us]-600G
+      - 🇺🇸 US4-CN2家宽专线-600G
+      - 🇺🇸 DMIT-PRO-[US]-1-696.96GB📊
   - name: KR - 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
