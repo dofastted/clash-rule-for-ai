@@ -1,0 +1,344 @@
+proxies:
+  - {name: snippets-1 t.me/bestip_one, server: snipaste4.speedip.eu.org, port: 2053, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgawkg9up9nzm.1at1i71x7m.z02fnc3s1mv.9h6qgo5mv.try.zi3q1wkj1oq.st7.ch1bck4b04a.ly6k.ihnzgyx2d40f.sion7n0gl4y6pr0t7.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgawkg9up9nzm.1at1i71x7m.z02fnc3s1mv.9h6qgo5mv.try.zi3q1wkj1oq.st7.ch1bck4b04a.ly6k.ihnzgyx2d40f.sion7n0gl4y6pr0t7.neib.cn}}}
+  - {name: snippets-2 t.me/bestip_one, server: snipaste5.speedip.eu.org, port: 2096, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgac94j7o4mei.axen.23w.j34.oolizp.91rlhuihva.s8s5u43.as9i.v32.sygre9v1.uih1t4db7bi18mmvzkjk4hfoieqnkaqmxtn8licw3ks.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgac94j7o4mei.axen.23w.j34.oolizp.91rlhuihva.s8s5u43.as9i.v32.sygre9v1.uih1t4db7bi18mmvzkjk4hfoieqnkaqmxtn8licw3ks.neib.cn}}}
+  - {name: snippets-3 t.me/bestip_one, server: 104.26.12.31, port: 443, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgafguesmve9p.bo8ug.czj.pvhxuaho8t.mo1cd0vka9i0.196ajotggq.f5r6c5ed.01i326s.2dfzbs.m7jnql74pd6.luxr3x36wd2y4syl1r7.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgafguesmve9p.bo8ug.czj.pvhxuaho8t.mo1cd0vka9i0.196ajotggq.f5r6c5ed.01i326s.2dfzbs.m7jnql74pd6.luxr3x36wd2y4syl1r7.neib.cn}}}
+  - {name: snippets-4 t.me/bestip_one, server: snipaste2.speedip.eu.org, port: 2053, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgatytuw0jgzz.b120e6510.1vi9y55v.9xyat.vvyepks.q1x6.cc30gkwkpso8.rt7ngcko.l6uzut.zfqr6.cqyhm5dtcus6bjillzh1o1voczc.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgatytuw0jgzz.b120e6510.1vi9y55v.9xyat.vvyepks.q1x6.cc30gkwkpso8.rt7ngcko.l6uzut.zfqr6.cqyhm5dtcus6bjillzh1o1voczc.neib.cn}}}
+  - {name: snippets-5 t.me/bestip_one, server: 104.26.13.31, port: 8443, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgafjwdvp80qr.h2g89.m3dfl0kkj.h2n4uckhk.a77ce6p7fo.9nbs.neupf2d1a0.araz3s7cgy71.1qfvi6s31qca.sn54v6m.kiaw65pvlfno5.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgafjwdvp80qr.h2g89.m3dfl0kkj.h2n4uckhk.a77ce6p7fo.9nbs.neupf2d1a0.araz3s7cgy71.1qfvi6s31qca.sn54v6m.kiaw65pvlfno5.neib.cn}}}
+  - {name: snippets-6 t.me/bestip_one, server: snipaste3.speedip.eu.org, port: 2083, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgavxy40gvucn.524aq3db0w6d.qhdjva1v34c.kvmms.geccnok0voho.xlvtc.n261u.7nnkqat.n74c.ugzf1ugw.xqzxaz0avvmk58uhd7heli.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgavxy40gvucn.524aq3db0w6d.qhdjva1v34c.kvmms.geccnok0voho.xlvtc.n261u.7nnkqat.n74c.ugzf1ugw.xqzxaz0avvmk58uhd7heli.neib.cn}}}
+  - {name: snippets-7 t.me/bestip_one, server: snipaste1.speedip.eu.org, port: 2087, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgagcuv5hqc7r.4dk698npn.70z81ffg07.5nhiu8o.ctj9x5xn.fio.sxtkjpli200l.s0c6p9mpnkd5.hxdabwxulu.tzu86f.7grrffsg3uxaok.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgagcuv5hqc7r.4dk698npn.70z81ffg07.5nhiu8o.ctj9x5xn.fio.sxtkjpli200l.s0c6p9mpnkd5.hxdabwxulu.tzu86f.7grrffsg3uxaok.neib.cn}}}
+  - {name: snippets-8 t.me/bestip_one, server: 104.26.13.31, port: 2083, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgac6u6bgrhsq.4ynqjl.bn7.q5eu55qd6e5.el3ol5m.5wyqgm.dm2.jd4k7.nm1fraom6.fhwkc4pi9.go4m3l4udkeqkg6oaqlbdjfn0jpa935f.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgac6u6bgrhsq.4ynqjl.bn7.q5eu55qd6e5.el3ol5m.5wyqgm.dm2.jd4k7.nm1fraom6.fhwkc4pi9.go4m3l4udkeqkg6oaqlbdjfn0jpa935f.neib.cn}}}
+  - {name: snippets-9 t.me/bestip_one, server: snipaste4.speedip.eu.org, port: 2053, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgae64vnn8sez.upzcoec8cw.u9ntxayx.w4tcjgq.tfb.e1bvtcqum.m1b6a3ibuj.6zp4hg4q9hv1.53jnj1a.luvwyovzbef.cv7c75v0h4it7i.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgae64vnn8sez.upzcoec8cw.u9ntxayx.w4tcjgq.tfb.e1bvtcqum.m1b6a3ibuj.6zp4hg4q9hv1.53jnj1a.luvwyovzbef.cv7c75v0h4it7i.neib.cn}}}
+  - {name: snippets-10 t.me/bestip_one, server: snipaste2.speedip.eu.org, port: 2087, type: vless, uuid: 019db4de-f774-a053-f903-81e29342be82, tls: true, tfo: false, skip-cert-verify: true, servername: 0001x4ppgattskflegy5.y9ar5mm0.ttqm.bvmu1dqyx8y0.96fe.cljpowm7bgel.qq8aeiyjl4.zxvua9s.ydairufw.i3nw9c5nk.02ky4lhhid74q717s.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 0001x4ppgattskflegy5.y9ar5mm0.ttqm.bvmu1dqyx8y0.96fe.cljpowm7bgel.qq8aeiyjl4.zxvua9s.ydairufw.i3nw9c5nk.02ky4lhhid74q717s.neib.cn}}}
+proxy-groups:
+  - name: 🔮 全局策略
+    type: select
+    proxies:
+      - 🛰️ 自动选择
+      - 手动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - DIRECT
+  - name: 手动选择
+    type: select
+    proxies:
+      - 🛰️ 自动选择
+      - snippets-1 t.me/bestip_one
+      - snippets-2 t.me/bestip_one
+      - snippets-3 t.me/bestip_one
+      - snippets-4 t.me/bestip_one
+      - snippets-5 t.me/bestip_one
+      - snippets-6 t.me/bestip_one
+      - snippets-7 t.me/bestip_one
+      - snippets-8 t.me/bestip_one
+      - snippets-9 t.me/bestip_one
+      - snippets-10 t.me/bestip_one
+  - name: 🛰️ 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    proxies:
+      - snippets-1 t.me/bestip_one
+      - snippets-2 t.me/bestip_one
+      - snippets-3 t.me/bestip_one
+      - snippets-4 t.me/bestip_one
+      - snippets-5 t.me/bestip_one
+      - snippets-6 t.me/bestip_one
+      - snippets-7 t.me/bestip_one
+      - snippets-8 t.me/bestip_one
+      - snippets-9 t.me/bestip_one
+      - snippets-10 t.me/bestip_one
+  - name: 🧩 自定义扩展
+    type: select
+    proxies:
+      - 🛰️ 自动选择
+      - 手动选择
+      - DIRECT
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+  - name: 🤖 OpenAI
+    type: select
+    proxies:
+      - US - 自动选择
+      - JP - 自动选择
+      - SG - 自动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - DIRECT
+  - name: 🤖 Claude
+    type: select
+    proxies:
+      - US - 自动选择
+      - JP - 自动选择
+      - SG - 自动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - DIRECT
+  - name: 🤖 Gemini
+    type: select
+    proxies:
+      - US - 自动选择
+      - JP - 自动选择
+      - SG - 自动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - DIRECT
+  - name: 🤖 XAI
+    type: select
+    proxies:
+      - US - 自动选择
+      - JP - 自动选择
+      - SG - 自动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - DIRECT
+  - name: 🤖 wechat
+    type: select
+    proxies:
+      - DIRECT
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+  - name: 🎬 奈飞分组
+    type: select
+    proxies:
+      - US - 节点选择
+      - JP - 自动选择
+      - SG - 自动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - DIRECT
+  - name: 📱 社交媒体
+    type: select
+    proxies:
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - DIRECT
+  - name: 📺 YouTube
+    type: select
+    proxies:
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - DIRECT
+  - name: 🎵 Spotify
+    type: select
+    proxies:
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - DIRECT
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - DIRECT
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+  - name: 🎮 Dota2
+    type: select
+    proxies:
+      - SG - 自动选择
+      - JP - 自动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - DIRECT
+  - name: 💻 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+  - name: HK - 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: TW - 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: SG - 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: JP - 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: US - 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: US - 节点选择
+    type: select
+    proxies:
+      - US - 自动选择
+  - name: KR - 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: AU - 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - DIRECT
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🔒 IP 伪装
+    type: select
+    proxies:
+      - 🔮 全局策略
+      - 🛰️ 自动选择
+      - 手动选择
+      - HK - 自动选择
+      - TW - 自动选择
+      - SG - 自动选择
+      - JP - 自动选择
+      - US - 自动选择
+      - KR - 自动选择
+      - AU - 自动选择
+      - DIRECT
+rules:
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
