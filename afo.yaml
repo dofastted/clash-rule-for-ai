@@ -6,197 +6,188 @@ proxy-groups:
   - name: 🔮 全局策略
     type: select
     proxies:
-      - 🛰️ 自动选择
       - 手动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - 手动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
       - DIRECT
   - name: 手动选择
     type: select
     proxies:
-      - 🛰️ 自动选择
-      - 🇺🇸 dmit[us]-600G
-      - 🇺🇸 US4-CN2家宽专线-600G
-      - 🇺🇸 DMIT-PRO-[US]-1-696.96GB📊
-  - name: 🛰️ 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
-    proxies:
+      - 手动选择
       - 🇺🇸 dmit[us]-600G
       - 🇺🇸 US4-CN2家宽专线-600G
       - 🇺🇸 DMIT-PRO-[US]-1-696.96GB📊
   - name: 🧩 自定义扩展
     type: select
     proxies:
-      - 🛰️ 自动选择
+      - 手动选择
       - 手动选择
       - DIRECT
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
   - name: 🤖 OpenAI
     type: select
     proxies:
-      - US - 自动选择
-      - JP - 自动选择
-      - SG - 自动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - US手动选择
+      - JP手动选择
+      - SG手动选择
+      - HK手动选择
+      - TW手动选择
+      - KR手动选择
+      - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
+      - 手动选择
       - 手动选择
       - DIRECT
   - name: 🤖 Claude
     type: select
     proxies:
-      - US - 自动选择
-      - JP - 自动选择
-      - SG - 自动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - US手动选择
+      - JP手动选择
+      - SG手动选择
+      - HK手动选择
+      - TW手动选择
+      - KR手动选择
+      - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
+      - 手动选择
       - 手动选择
       - DIRECT
   - name: 🤖 Gemini
     type: select
     proxies:
-      - US - 自动选择
-      - JP - 自动选择
-      - SG - 自动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - US手动选择
+      - JP手动选择
+      - SG手动选择
+      - HK手动选择
+      - TW手动选择
+      - KR手动选择
+      - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
+      - 手动选择
       - 手动选择
       - DIRECT
   - name: 🤖 XAI
     type: select
     proxies:
-      - US - 自动选择
-      - JP - 自动选择
-      - SG - 自动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - US手动选择
+      - JP手动选择
+      - SG手动选择
+      - HK手动选择
+      - TW手动选择
+      - KR手动选择
+      - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
+      - 手动选择
       - 手动选择
       - DIRECT
   - name: 🤖 wechat
     type: select
     proxies:
       - DIRECT
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
+      - 手动选择
       - 手动选择
   - name: 🎬 奈飞分组
     type: select
     proxies:
-      - US - 节点选择
-      - JP - 自动选择
-      - SG - 自动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - US节点选择
+      - JP手动选择
+      - SG手动选择
+      - HK手动选择
+      - TW手动选择
+      - KR手动选择
+      - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
+      - 手动选择
       - 手动选择
       - DIRECT
   - name: 📱 社交媒体
     type: select
     proxies:
       - 🔮 全局策略
-      - 🛰️ 自动选择
       - 手动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - 手动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
       - DIRECT
   - name: 📺 YouTube
     type: select
     proxies:
       - 🔮 全局策略
-      - 🛰️ 自动选择
       - 手动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - 手动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
       - DIRECT
   - name: 🎵 Spotify
     type: select
     proxies:
       - 🔮 全局策略
-      - 🛰️ 自动选择
       - 手动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - 手动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
       - DIRECT
   - name: 🎮 游戏平台
     type: select
     proxies:
       - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
       - 手动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - 手动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
   - name: 🎮 Dota2
     type: select
     proxies:
-      - SG - 自动选择
-      - JP - 自动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - SG手动选择
+      - JP手动选择
+      - HK手动选择
+      - TW手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
+      - 手动选择
       - 手动选择
       - DIRECT
   - name: 💻 微软服务
@@ -204,101 +195,76 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
       - 手动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - 手动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - 🔮 全局策略
-      - 🛰️ 自动选择
       - 手动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
-  - name: HK - 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
-    proxies:
+      - 手动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
       - DIRECT
-  - name: TW - 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
-    proxies:
-      - DIRECT
-  - name: SG - 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
-    proxies:
-      - DIRECT
-  - name: JP - 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
-    proxies:
-      - DIRECT
-  - name: US - 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
-    proxies:
-      - 🇺🇸 dmit[us]-600G
-      - 🇺🇸 US4-CN2家宽专线-600G
-      - 🇺🇸 DMIT-PRO-[US]-1-696.96GB📊
-  - name: US - 节点选择
+  - name: HK手动选择
     type: select
     proxies:
-      - US - 自动选择
+      - DIRECT
+  - name: TW手动选择
+    type: select
+    proxies:
+      - DIRECT
+  - name: SG手动选择
+    type: select
+    proxies:
+      - DIRECT
+  - name: JP手动选择
+    type: select
+    proxies:
+      - DIRECT
+  - name: US手动选择
+    type: select
+    proxies:
       - 🇺🇸 dmit[us]-600G
       - 🇺🇸 US4-CN2家宽专线-600G
       - 🇺🇸 DMIT-PRO-[US]-1-696.96GB📊
-  - name: KR - 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
+  - name: US节点选择
+    type: select
     proxies:
-      - DIRECT
-  - name: AU - 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
+      - US手动选择
+      - 🇺🇸 dmit[us]-600G
+      - 🇺🇸 US4-CN2家宽专线-600G
+      - 🇺🇸 DMIT-PRO-[US]-1-696.96GB📊
+  - name: KR手动选择
+    type: select
     proxies:
       - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔮 全局策略
-      - 🛰️ 自动选择
+      - 手动选择
       - 手动选择
       - DIRECT
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -313,15 +279,15 @@ proxy-groups:
     type: select
     proxies:
       - 🔮 全局策略
-      - 🛰️ 自动选择
       - 手动选择
-      - HK - 自动选择
-      - TW - 自动选择
-      - SG - 自动选择
-      - JP - 自动选择
-      - US - 自动选择
-      - KR - 自动选择
-      - AU - 自动选择
+      - 手动选择
+      - HK手动选择
+      - TW手动选择
+      - SG手动选择
+      - JP手动选择
+      - US手动选择
+      - KR手动选择
+      - DIRECT
       - DIRECT
 rules:
   - GEOIP,CN,🎯 全球直连
