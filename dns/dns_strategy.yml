@@ -1,4 +1,17 @@
-# DNS 策略（国内 CN + 海外双线路）
+# DNS 策略 + 规则集（mihomo 内核；国内 DoH 直连 + 海外 DoH 走代理）
+#
+# 解析分流（nameserver-policy 按书写顺序匹配）：
+#   1. AI 服务域名                 -> 海外 DoH（经代理），不经过国内 DNS
+#   2. rule-set:private_domain,cn_domain -> 国内 DoH（直连）
+#   3. rule-set:proxy_domain       -> 海外 DoH（经代理）
+#   4. 其余域名                    -> nameserver（国内 DoH）
+#
+# respect-rules: true 让 DNS 查询本身也按规则分流，海外 DoH 由 rules 中
+# 1.1.1.1 / 8.8.8.8 的置顶规则送入「🔮 全局策略」，避免直连被墙或污染。
+# 所有 DoH 均使用 IP 地址，无需先用 default-nameserver 解析服务器域名。
+#
+# 启动提速：DNS 与 rules 共用下方 rule-providers（预编译 .mrs 二进制规则集），
+# 不再引用 geosite / GEOIP，内核启动时无需下载、解析 GeoSite.dat / GeoIP 数据库。
 port: 10808
 socks-port: 7891
 allow-lan: true
@@ -6,47 +19,120 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 
+# 重启后保留节点选择与 fake-ip 映射，避免系统/应用缓存的 fake-ip 在重启后失效
+profile:
+  store-selected: true
+  store-fake-ip: true
+
 dns:
   enable: true
-  ipv6: false
   listen: 0.0.0.0:1053
+  ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+  fake-ip-range6: fdfe:dcba:9876::1/64
+  fake-ip-filter-mode: blacklist
   fake-ip-filter:
-    - "*.lan"
-    - "*.local"
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
+    # 局域网 / 本地
+    - "+.lan"
+    - "+.local"
+    - "+.arpa"
+    # Windows 网络连通性检测
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    # 时间同步
+    - "time.*.com"
+    - "ntp.*.com"
+    - "+.pool.ntp.org"
+    # QQ 快捷登录
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    # STUN（WebRTC / 游戏 NAT 穿透）
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+  prefer-h3: false
+  respect-rules: true
+  use-hosts: false
+  use-system-hosts: false
+
+  # 仅用于解析 DoH 服务器域名（下方均为 IP，基本不会用到），必须是纯 IP
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
+
+  # 未命中 nameserver-policy 的域名
   nameserver:
     - https://223.5.5.5/dns-query
-    - https://doh.pub/dns-query
+    - https://120.53.53.53/dns-query
+
+  # 解析代理节点服务器域名（开启 respect-rules 时必填），直连国内 DoH
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://120.53.53.53/dns-query
+
+  # DIRECT 出站连接的域名解析，使用国内 DoH 以获得国内 CDN 节点
+  direct-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://120.53.53.53/dns-query
+  direct-nameserver-follow-policy: false
+
   nameserver-policy:
-    'geosite:cn':
+    # AI 服务：始终海外 DoH，防止 DNS 泄露到国内解析器
+    "+.openai.com,+.chatgpt.com,+.oaistatic.com,+.oaiusercontent.com":
+      - https://1.1.1.1/dns-query
+      - https://8.8.8.8/dns-query
+    "+.anthropic.com,+.claude.ai,+.claude.com,+.claudeusercontent.com":
+      - https://1.1.1.1/dns-query
+      - https://8.8.8.8/dns-query
+    "+.gemini.google.com,+.aistudio.google.com,+.generativelanguage.googleapis.com,+.deepmind.com,+.deepmind.google":
+      - https://1.1.1.1/dns-query
+      - https://8.8.8.8/dns-query
+    "+.x.ai,+.grok.com,+.perplexity.ai,+.augmentcode.com,+.factory.ai":
+      - https://1.1.1.1/dns-query
+      - https://8.8.8.8/dns-query
+    "rule-set:private_domain,cn_domain":
       - https://223.5.5.5/dns-query
-      - https://doh.pub/dns-query
-  fallback:
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.google/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
-    domain:
-      - "+.openai.com"
-      - "+.chatgpt.com"
-      - "+.anthropic.com"
-      - "+.claude.ai"
-      - "+.x.ai"
-      - "+.perplexity.ai"
-      - "+.googleapis.com"
-      - "+.gstatic.com"
-      - "+.google.com"
-      - "+.facebook.com"
-      - "+.youtube.com"
+      - https://120.53.53.53/dns-query
+    "rule-set:proxy_domain":
+      - https://1.1.1.1/dns-query
+      - https://8.8.8.8/dns-query
+
+  # 已由 nameserver-policy 分流，不使用 fallback（fallback 为空时 fallback-filter 不生效）
+  fallback: []
+
+# 大体量规则集改为客户端本地加载的 .mrs 二进制规则集（MetaCubeX/meta-rules-dat，每日更新）：
+# - 替代 direct.txt / private.txt / proxy.txt / cncidr.txt / GEOIP,CN（订阅转换后端无需再拉取约 3.6MB 列表）
+# - 首次启动下载约 0.8MB 并缓存到 ./ruleset/，之后从本地加载，每 24 小时后台更新
+# - 在 chash_rules_for_ai.ini 中以 []RULE-SET,<名称> 引用；DNS 的 nameserver-policy 也复用同一份数据
+rule-providers:
+  private_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.mrs
+    path: ./ruleset/private_domain.mrs
+    interval: 86400
+  cn_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.mrs
+    path: ./ruleset/cn_domain.mrs
+    interval: 86400
+  proxy_domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.mrs
+    path: ./ruleset/proxy_domain.mrs
+    interval: 86400
+  cn_ip:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs
+    path: ./ruleset/cn_ip.mrs
+    interval: 86400
 
 Proxy: ~
 Proxy Group: ~

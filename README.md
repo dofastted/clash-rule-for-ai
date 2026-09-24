@@ -385,6 +385,23 @@ tolerance: 50  - DOMAIN,clash.razord.top,DIRECT
 
 ## 📝 更新日志```yaml
 
+### 2026-09-24
+
+**重写 DNS 策略（`dns/dns_strategy.yml`）：**
+- ✅ 以 `nameserver-policy` 分流替代 `fallback`：AI 域名、`geosite:geolocation-!cn` 走海外 DoH（1.1.1.1 / 8.8.8.8），`geosite:private,cn` 及其余域名走国内 DoH（223.5.5.5 / 120.53.53.53）
+- ✅ 开启 `respect-rules`，海外 DNS 查询经 `🔮 全局策略` 代理发出，避免 AI 域名泄露到国内解析器或被污染
+- ✅ 新增 `proxy-server-nameserver`、`direct-nameserver`、`fake-ip-range6`，补充 fake-ip 过滤（NTP、STUN、QQ 快捷登录等）
+- ✅ INI 置顶 `IP-CIDR,1.1.1.1/32` 与 `IP-CIDR,8.8.8.8/32` → `🔮 全局策略`（no-resolve）
+
+**初始化提速（启动 + 首次连接）：**
+- ✅ 修复：`direct.txt` / `proxy.txt` / `cncidr.txt` / `private.txt` 为 `payload:` 格式，subconverter 会静默丢弃，此前从未生效
+- ✅ 改为 `dns_strategy.yml` 中的 `rule-providers`（MetaCubeX `.mrs` 二进制规则集：`private_domain`、`cn_domain`、`proxy_domain`、`cn_ip`），INI 以 `[]RULE-SET,<名称>` 引用；DNS 的 `nameserver-policy` 复用同一份数据，不再引用 geosite / GEOIP
+- ✅ 内核启动（配置加载 + 规则集就绪）约 307ms → 75ms，内存约 79MB → 55MB；首次启动无需下载 GeoSite.dat（4.2MB）与 geoip.metadb（8.4MB），改为约 0.8MB 规则集并缓存到 `./ruleset/`
+- ✅ 订阅转换后端拉取的规则文件 3.9MB → 0.3MB
+- ✅ 需要 DNS 解析的规则只保留末尾的 `RULE-SET,cn_ip`；前面的 `GEOIP,CN` 改为 `cn_ip,no-resolve`，Apple / Facebook / Game / OpenAI / Spotify / YouTube 列表中的 IP 规则补上 `no-resolve`。代理流量（AI、流媒体、海外网站）不再在路由前等待一次 DNS 查询
+- ✅ `profile.store-fake-ip`：重启后保留 fake-ip 映射，已缓存的 fake-ip 连接不失效
+- ⚠️ 需较新的 mihomo 内核（支持 `.mrs` 规则集）；首次启动需能访问 `testingcf.jsdelivr.net` 下载规则集
+
 ### 2026-04-02
 
 **精简地区分组并同步性能基线：**
